@@ -1,4 +1,5 @@
 ﻿using JuanFronttoEnd.DAL;
+using JuanFronttoEnd.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,15 @@ namespace JuanFronttoEnd.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            HomeViewModel home = new HomeViewModel
+            {
+                Products = _context.Products.Where(c => !c.isDeleted).Where(c => !c.isNew).ToList(),
+                ProductImages = _context.ProductImages.ToList(),
+                Blogs = _context.Blogs.ToList(),
+                Brands = _context.Brands.Where(c => c.IsActive).ToList(),
+                Settings = _context.Settings.ToList(),
+            };
+            return View(home);
         }
     }
 }

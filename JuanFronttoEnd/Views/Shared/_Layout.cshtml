@@ -1,4 +1,5 @@
-﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+﻿
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
@@ -99,7 +100,7 @@
                                     <nav class="desktop-menu">
                                         <ul>
                                             <li class="active">
-                                                <a href="index.html">
+                                                <a asp-controller="Home" asp-action="Index">
                                                     Home <i class="fa fa-angle-down"></i>
                                                 </a>
                                                 <ul class="dropdown">
