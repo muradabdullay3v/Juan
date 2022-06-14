@@ -24,6 +24,7 @@ namespace JuanFronttoEnd.DAL
             public DbSet<Blog> Blogs { get; set; }
             public DbSet<Brand> Brands { get; set; }
             public DbSet<Setting> Settings { get; set; }
+            public DbSet<Slide> Slides { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

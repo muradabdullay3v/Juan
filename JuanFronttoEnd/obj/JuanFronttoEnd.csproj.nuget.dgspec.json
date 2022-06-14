@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj": {}
+    "C:\\Users\\Murad's Tape\\Desktop\\Folders\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj": {}
   },
   "projects": {
-    "F:\\Code\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj": {
+    "C:\\Users\\Murad's Tape\\Desktop\\Folders\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj",
+        "projectUniqueName": "C:\\Users\\Murad's Tape\\Desktop\\Folders\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj",
         "projectName": "JuanFronttoEnd",
-        "projectPath": "F:\\Code\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj",
-        "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-        "outputPath": "F:\\Code\\Juan\\JuanFronttoEnd\\obj\\",
+        "projectPath": "C:\\Users\\Murad's Tape\\Desktop\\Folders\\Juan\\JuanFronttoEnd\\JuanFronttoEnd.csproj",
+        "packagesPath": "C:\\Users\\Murad's Tape\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murad's Tape\\Desktop\\Folders\\Juan\\JuanFronttoEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Murad's Tape\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
